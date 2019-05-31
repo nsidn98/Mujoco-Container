@@ -1,0 +1,89 @@
+Choosing the latest nvidia driver: /usr/lib/nvidia-384, among ['/usr/lib/nvidia-375', '/usr/lib/nvidia-384']
+Choosing the latest nvidia driver: /usr/lib/nvidia-384, among ['/usr/lib/nvidia-375', '/usr/lib/nvidia-384']
+running build_ext
+building 'mujoco_py.cymj' extension
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr/.conda
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr/.conda/envs
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr/.conda/envs/rlenv
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr/.conda/envs/rlenv/lib
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py
+creating /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/gl
+gcc -pthread -B /storage/home/rahulr/.conda/envs/rlenv/compiler_compat -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py -I/storage/home/rahulr/.mujoco/mjpro150/include -I/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/numpy/core/include -I/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/vendor/egl -I/storage/home/rahulr/.conda/envs/rlenv/include/python3.5m -c /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/cymj.c -o /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/generated/_pyxbld_1.50.1.56_35_linuxgpuextensionbuilder/temp.linux-x86_64-3.5/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/cymj.o -fopenmp -w
+In file included from /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:7:0,
+                 from /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:34,
+                 from /storage/home/rahulr/.conda/envs/rlenv/include/python3.5m/Python.h:11,
+                 from /storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/cymj.c:52:
+/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:168:61: fatal error: limits.h: No such file or directory
+compilation terminated.
+Traceback (most recent call last):
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/unixccompiler.py", line 118, in _compile
+    extra_postargs)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/ccompiler.py", line 909, in spawn
+    spawn(cmd, dry_run=self.dry_run)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/spawn.py", line 36, in spawn
+    _spawn_posix(cmd, search_path, dry_run=dry_run)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/spawn.py", line 159, in _spawn_posix
+    % (cmd, exit_status))
+distutils.errors.DistutilsExecError: command 'gcc' failed with exit status 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "test.py", line 4, in <module>
+    env = gym.make('FetchReach-v1')
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/gym/envs/registration.py", line 167, in make
+    return registry.make(id)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/gym/envs/registration.py", line 119, in make
+    env = spec.make()
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/gym/envs/registration.py", line 85, in make
+    cls = load(self._entry_point)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/gym/envs/registration.py", line 14, in load
+    result = entry_point.load(False)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/pkg_resources/__init__.py", line 2318, in load
+    return self.resolve()
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/pkg_resources/__init__.py", line 2324, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/gym/envs/robotics/__init__.py", line 1, in <module>
+    from gym.envs.robotics.fetch_env import FetchEnv
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/gym/envs/robotics/fetch_env.py", line 3, in <module>
+    from gym.envs.robotics import rotations, robot_env, utils
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/gym/envs/robotics/robot_env.py", line 10, in <module>
+    import mujoco_py
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/__init__.py", line 1, in <module>
+    from mujoco_py.builder import cymj, ignore_mujoco_warnings, functions, MujocoException
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/builder.py", line 468, in <module>
+    cymj = load_cython_ext(mjpro_path)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/builder.py", line 90, in load_cython_ext
+    cext_so_path = builder.build()
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/builder.py", line 202, in build
+    built_so_file_path = self._build_impl()
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/builder.py", line 274, in _build_impl
+    so_file_path = super()._build_impl()
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/builder.py", line 225, in _build_impl
+    dist.run_commands()
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/dist.py", line 955, in run_commands
+    self.run_command(cmd)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/dist.py", line 974, in run_command
+    cmd_obj.run()
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/Cython/Distutils/old_build_ext.py", line 186, in run
+    _build_ext.build_ext.run(self)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/command/build_ext.py", line 339, in run
+    self.build_extensions()
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/mujoco_py/builder.py", line 125, in build_extensions
+    build_ext.build_extensions(self)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/site-packages/Cython/Distutils/old_build_ext.py", line 194, in build_extensions
+    self.build_extension(ext)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/command/build_ext.py", line 533, in build_extension
+    depends=ext.depends)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/ccompiler.py", line 574, in compile
+    self._compile(obj, src, ext, cc_args, extra_postargs, pp_opts)
+  File "/storage/home/rahulr/.conda/envs/rlenv/lib/python3.5/distutils/unixccompiler.py", line 120, in _compile
+    raise CompileError(msg)
+distutils.errors.CompileError: command 'gcc' failed with exit status 1
