@@ -13,4 +13,4 @@ Werkzeug==0.15.3
 tqdm
 gym
 mujoco_py
-opencv-python==3.4.1.15
+opencv-python==3.4.7.28
